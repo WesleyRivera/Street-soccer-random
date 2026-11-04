@@ -2,7 +2,7 @@
 
 > Este archivo es el "punto de guardado" del proyecto. Se actualiza después de cada paso.
 > Si Claude se queda sin límites, aquí está exactamente dónde quedó y qué sigue.
-> **Última actualización:** 2026-11-04 14:55 (hora de El Salvador)
+> **Última actualización:** 2026-11-04 15:00 (hora de El Salvador)
 
 ## Decisiones tomadas (por Wesley)
 - Ya no se usan personajes de marcas (Mario, Bob Esponja, etc.): se hace un **elenco original** con el mismo humor: animales raros, robots/monstruos y comida con cara.
@@ -50,7 +50,7 @@ Mover: WASD o flechas · Pase / cambiar jugador: X o J · Tiro (mantén y suelta
 ## Notas
 - Los personajes ya se ven bien en pruebas: se pueden ajustar colores y accesorios en `character.gd` (funciones `_params` y `_d_<especie>`).
 - Para agregar un personaje nuevo: añadirlo en `cast.gd` y crear su aspecto en `character.gd`.
-- GitHub: la cuenta de Wesley no está conectada a Claude, por eso Claude no puede subir los cambios. Conectarla en Claude → Configuración → Conectores permitiría subir el avance directo al repo.
+- GitHub: conectado el 2026-11-04. Claude sube el avance directo a este repo (rama `main`), así que este archivo siempre refleja el último estado.
 
 ## Cómo regenerar el .exe (por si cambias algo)
 1. En Godot: *Proyecto → Exportar → Windows Desktop* (ya hay un preset guardado en `export_presets.cfg`) → *Exportar proyecto*. Si falta, Godot te ofrece descargar las plantillas.
