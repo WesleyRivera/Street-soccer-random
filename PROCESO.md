@@ -8,6 +8,7 @@
 6. **Cancha de cemento tipo futsal/Volta**: áreas de futsal, paredes con grafitis y reja.
 7. **Cancha de favela**: casas de ladrillo, paredes azules, mural, pintura desgastada (referencia: 2 fotos aportadas por el usuario).
 8. **Realismo extra**: render a 2x, texturas de ruido, desgaste de pintura con máscara, desenfoque de fondo, luz de atardecer, postes de luz, grano de película.
+9. **Personajes**: los jugadores dejaron de ser círculos. Ahora son muñecos vectoriales con 3 vistas (frente, espalda, perfil), ciclo de carrera, patada, portero con guantes, peinados y tonos de piel distintos, número en la espalda y celebración al marcar gol. Todo está en el bloque `PERSONAJES` de `index.html` (se edita en `ROSTER`, `KITS` y `GKK`).
 
 ## Decisiones
 - Un solo archivo para poder abrirlo sin servidor.
